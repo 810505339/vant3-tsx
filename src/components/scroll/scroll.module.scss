@@ -1,0 +1,40 @@
+.scroll-wrapper {
+  height: 100%;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+
+  .scroll-content {
+
+  }
+
+
+}
+
+.pull-down {
+  height: 100%;
+
+  .pulldown-wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-100%) translateZ(0);
+    text-align: center;
+    color: #999;
+    position: absolute;
+  }
+}
+
+.view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  padding: 20px;
+  background: #fff;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
