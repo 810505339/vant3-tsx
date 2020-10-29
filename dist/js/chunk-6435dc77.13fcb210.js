@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-6435dc77"],{"4a7e":function(n,c,o){"use strict";o.r(c);var e=o("7a23"),t=o("d0d3"),a=o.n(t);c["default"]=Object(e["h"])((function(){return function(){return Object(e["g"])(e["a"],null,[Object(e["g"])("div",{class:a.a.logoWrapper},[Object(e["g"])(Object(e["z"])("van-image"),{src:o("cf05")},null)])])}}))},cf05:function(n,c,o){n.exports=o.p+"img/logo.82b9c7a5.png"},d0d3:function(n,c,o){n.exports={logoWrapper:"login-module-nRYGF"}}}]);
+//# sourceMappingURL=chunk-6435dc77.13fcb210.js.map

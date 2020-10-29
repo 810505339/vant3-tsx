@@ -46,7 +46,7 @@ export default defineComponent(() => {
         <van-tabs v-slots={{
             'nav-left': () => renderNavLeft(),
             'nav-right': () => renderNavRight()
-        }} data-role='tabs' class='app-tabs' animated sticky swipeable lazy-render line-height={0}
+        }} data-role='tabs' class='app-tabs'  line-height={0}
                   v-model={[active.value, 'active']}
 
         >

@@ -1,4 +1,5 @@
-import {createRouter, createWebHistory, RouteRecordRaw} from 'vue-router'
+// import {createRouter, createWebHistory, RouteRecordRaw} from 'vue-router'
+import {createRouter, RouteRecordRaw, createMemoryHistory} from 'vue-router'
 
 
 const routers: Array<RouteRecordRaw> = [
@@ -41,7 +42,8 @@ const asyncRoutes: Array<RouteRecordRaw> = [
 const routes: Array<RouteRecordRaw> = [...routers, ...asyncRoutes]
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    // history: createWebHistory(process.env.BASE_URL),
+    history: createMemoryHistory(),
     routes
 })
 
